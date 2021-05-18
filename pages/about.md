@@ -10,7 +10,19 @@ credits: true
 
 {% include feature/jumbotron.html %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="This is the first psychiana section;This is the second section" %}
+
+## This is the first psychiana section
+
+Is this a dagger I see before me? The handle toward my hand?
+
+{% include feature/item-figure.html object="demo_001" width="50"%}
+
+## This is the second section
+
+Come, let me clutch thee. I have thee not yet I see thee still.
+
+{% include feature/card.html header="Art thou" text="fatal vision sensible to feeling as to sight?" width="50" centered=true %}
 
 ## About the Collection
 
